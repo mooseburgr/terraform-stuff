@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.101",
+    "esbuild": "0.14.50"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "../../../learn-terraform-lambda-api-gateway/node_modules/.bin/esbuild src/hello/index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/hello/index.js",
+    "postbuild": "cd dist && zip -r index.zip index.js*"
+  }
+}
