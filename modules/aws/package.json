@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@types/aws-lambda": "8.10.101",
-    "esbuild": "0.14.50"
+    "esbuild": "0.14.51"
   },
   "scripts": {
     "prebuild": "rm -rf dist",
