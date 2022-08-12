@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@types/aws-lambda": "8.10.101",
+    "@types/aws-lambda": "8.10.102",
     "esbuild": "0.14.53"
   },
   "scripts": {
